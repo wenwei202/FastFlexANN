@@ -96,8 +96,9 @@ Example:
 
 
 [weight file] – binary file
+
 Filename Format:
-database_weights_[neuron#]_connection#_userdata_learningRate_pruningRate_ reserved#
+database_weights_[neuron#]_connection#_userdata_learningRate_pruningRate_[reserved#]
 Ex. 
 mnist_weights_[785_301_101_11]_266610_0_0.000100_0.000000_0 
 
@@ -106,6 +107,7 @@ Ex.
 pruned_mnist_weights_[785_301_101_11]_946_0_0.000100_0.050000_0.txt
 
 Content Format:
+
 1 integer: the epoch # of finished training when saving weights								
 1 integer: the number of weights/connections including those connected with bias neurons					
 fflex_msg_t(double) array: weight values										
