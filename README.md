@@ -65,7 +65,7 @@ files loaded...
 Information is logged in file mnist.log
  
 # 4. File format
-[net file] – text file
+```[net file] – text file```
 
 Format:
 
