@@ -83,7 +83,7 @@ Example:
 0 787													
 ...													
 
-[train file/test file] - text file
+```[train file/test file] - text file```
 
 Format:
 
@@ -99,7 +99,7 @@ Example:
 … 													
 
 
-[weight file] – binary file
+```[weight file] – binary file```
 
 Filename Format:
 
@@ -119,7 +119,7 @@ Content Format:
 1 integer: the number of weights/connections including those connected with bias neurons					
 fflex_msg_t(double) array: weight values										
 
-[*.log]
+``` [*.log] ```
 Logging info
 
 # 5. Implementation details
