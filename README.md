@@ -51,7 +51,7 @@ ex.
 full_nn_784_300_100_10.txt will be generated, which is a MLP with 4 layers composed of 784 input neurons, 300+100 hidden neurons and 10 output neurons (Excluding these neurons, a bias neuron is also implicitly added at the end of every except output layers, and it is connected towards all neurons in the next layer, so as to implement all biases for neurons in the next layer.)
 
 ## 3.4 An running example
-wesley$ ./main mnist 10 0.0001 0 0 ../matlab/full_nn_784_300_100_10.txt default ../matlab/MNIST_train.txt ../matlab/MNIST_test.txt	
+>> wesley$ ./main mnist 10 0.0001 0 0 ../matlab/full_nn_784_300_100_10.txt default ../matlab/MNIST_train.txt ../matlab/MNIST_test.txt	
 
 Output is:
 loading files...												
@@ -120,6 +120,7 @@ Content Format:
 fflex_msg_t(double) array: weight values										
 
 ``` [*.log] ```
+
 Logging info
 
 # 5. Implementation details
