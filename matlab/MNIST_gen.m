@@ -15,6 +15,8 @@ save MNIST.mat;
 colormap(gray);
 axis off
 axis image
+
+%show an image of a digit in test samples
 for i=1:1
     j=randi(length(test_labels),1);
     image(reshape(255-test_images(j,:,:),28,28));
@@ -25,6 +27,7 @@ for i=1:1
     pause(1);
 end    
 
+%show an image of a digit in train samples
 for i=1:1
     j=randi(length(train_labels),1);
     image(reshape(255-train_images(j,:,:),28,28));
