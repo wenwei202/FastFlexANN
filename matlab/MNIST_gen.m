@@ -15,7 +15,7 @@ save MNIST.mat;
 colormap(gray);
 axis off
 axis image
-for i=1:5
+for i=1:1
     j=randi(length(test_labels),1);
     image(reshape(255-test_images(j,:,:),28,28));
     title(sprintf('%d',test_labels(j)));
@@ -25,7 +25,7 @@ for i=1:5
     pause(1);
 end    
 
-for i=1:5
+for i=1:1
     j=randi(length(train_labels),1);
     image(reshape(255-train_images(j,:,:),28,28));
     title(sprintf('%d',train_labels(j)));
