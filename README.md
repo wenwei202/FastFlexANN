@@ -63,7 +63,8 @@ files loaded...
 Information is logged in file mnist.log
  
 # 4. File format
-[net file] – text file \n
+[net file] – text file
+
 Format:
 LayerNumber NeuronNumberInEveryLayer ConnectionNumber ReservedNormalizedParameter					
 OneConnectionBetweenTwoNeurons										
@@ -72,6 +73,7 @@ OneConnectionBetweenTwoNeurons
 ...													
 
 Example:
+
 4 784 300 100 10 266610 0 # MLP with 4 layers composed of 784 input neurons, 300+100 hidden neurons and 10 output neurons (excluding bias neurons). Totally 266610 connections (including those connected bias neurons)						
 0 785 # a connection exists between neuron 0 and 785, bias neurons are also indexed in this connection list				
 0 786													
@@ -79,6 +81,7 @@ Example:
 ...													
 
 [train file/test file] - text file
+
 Format:
 FeatureDimension NumberOfClasses NumberOfSamples								
 FeaturesOfSample1 LabelOfSample1										
@@ -86,6 +89,7 @@ FeaturesOfSample2 LabelOfSample2
 …													
 
 Example:
+
 784 10 60000 # 60000 training samples for MNIST dataset								
 -1.00 0.913 … 0.876 9 # a sample of digit 9										
 … 													
