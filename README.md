@@ -21,13 +21,14 @@ FastFlexANN is a C implementation of sparse artificial neural networks (Multi-La
 
 # 3. How to run
 ## 3.1 Build
->> cd $FastFlexANNFolder/src		
->> make clean #always run this		
->> make				
+> cd $FastFlexANNFolder/src		
+> make clean #always run this		
+> make				
 
 ## 3.2 Run and parameter configuration
->> ./main [database] [epochs] [learning rate] [pruning rate] [normalized] [net file] [weight file] [train file] [test file]			
+> ./main [database] [epochs] [learning rate] [pruning rate] [normalized] [net file] [weight file] [train file] [test file]			
 All parameters are required
+
 * database: database for training and testing on neural networks. “mnist” and “text” are supported (in the first version, both work in the same way)
 * epochs: epochs of training (ex. 100)
 * learning rate: learning rate of weights (ex. 0.0001)
@@ -46,12 +47,12 @@ All parameters are required
 * Run full_connection_gen.m to generate net file for fully connected MLP 
 
 ex.
- >> full_connection_gen([784 300 100 10]));
+ > full_connection_gen([784 300 100 10]));
  
 full_nn_784_300_100_10.txt will be generated, which is a MLP with 4 layers composed of 784 input neurons, 300+100 hidden neurons and 10 output neurons (Excluding these neurons, a bias neuron is also implicitly added at the end of every except output layers, and it is connected towards all neurons in the next layer, so as to implement all biases for neurons in the next layer.)
 
 ## 3.4 An running example
->> wesley$ ./main mnist 10 0.0001 0 0 ../matlab/full_nn_784_300_100_10.txt default ../matlab/MNIST_train.txt ../matlab/MNIST_test.txt	
+> wesley$ ./main mnist 10 0.0001 0 0 ../matlab/full_nn_784_300_100_10.txt default ../matlab/MNIST_train.txt ../matlab/MNIST_test.txt	
 
 Output is:
 loading files...												
