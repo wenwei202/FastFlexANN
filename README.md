@@ -21,12 +21,12 @@ FastFlexANN is a C implementation of sparse artificial neural networks (Multi-La
 
 # 3. How to run
 ## 3.1 Build
- cd $FastFlexANNFolder/src		
- make clean #always run this		
- make				
+>> cd $FastFlexANNFolder/src		
+>> make clean #always run this		
+>> make				
 
 ## 3.2 Run and parameter configuration
-./main [database] [epochs] [learning rate] [pruning rate] [normalized] [net file] [weight file] [train file] [test file]			
+>> ./main [database] [epochs] [learning rate] [pruning rate] [normalized] [net file] [weight file] [train file] [test file]			
 All parameters are required
 * database: database for training and testing on neural networks. “mnist” and “text” are supported (in the first version, both work in the same way)
 * epochs: epochs of training (ex. 100)
