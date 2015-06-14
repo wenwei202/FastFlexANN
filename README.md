@@ -1,11 +1,11 @@
 More details are in ./docs folder.
 
 
-A Simple Tutorial for FastFlexANN
+# A Simple Tutorial for FastFlexANN
 Wei (Wesley) Wen
 weiwen.web@gmail.com
 
-1. What’s FastFlexANN
+# 1. What’s FastFlexANN
 FastFlexANN is a C implementation of sparse artificial neural networks (Multi-Layer Perceptron, MLP). Its advantages are:
   1) Compact and easy to be understood;
   2) Written by stand C to be portable to all C-compatible platforms;
@@ -13,13 +13,13 @@ FastFlexANN is a C implementation of sparse artificial neural networks (Multi-La
   4) Connections can be pruned/reduced during training to sparsify nets;
   5) Samples can be easily formatted as train file and test file.
 
-2. What’s in repository
+# 2. What’s in repository
 ./inc - header files
 ./src - source files
 ./matlab – matlab scripts to generate MNIST samples and net files
 ./docs - documents
 
-3. How to run
+# 3. How to run
 3.1 Build
  cd $FastFlexANNFolder/src		
  make clean #always run this		
@@ -62,7 +62,7 @@ files loaded...
 
 Information is logged in file mnist.log
  
-4. File format
+# 4. File format
 [net file] – text file
 Format:
 LayerNumber NeuronNumberInEveryLayer ConnectionNumber ReservedNormalizedParameter					
