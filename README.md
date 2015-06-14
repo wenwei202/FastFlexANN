@@ -66,6 +66,7 @@ Information is logged in file mnist.log
 [net file] – text file
 
 Format:
+
 LayerNumber NeuronNumberInEveryLayer ConnectionNumber ReservedNormalizedParameter					
 OneConnectionBetweenTwoNeurons										
 OneConnectionBetweenTwoNeurons										
@@ -83,6 +84,7 @@ Example:
 [train file/test file] - text file
 
 Format:
+
 FeatureDimension NumberOfClasses NumberOfSamples								
 FeaturesOfSample1 LabelOfSample1										
 FeaturesOfSample2 LabelOfSample2										
@@ -98,6 +100,7 @@ Example:
 [weight file] – binary file
 
 Filename Format:
+
 database_weights_[neuron#]_connection#_userdata_learningRate_pruningRate_[reserved#]
 Ex. 
 mnist_weights_[785_301_101_11]_266610_0_0.000100_0.000000_0 
