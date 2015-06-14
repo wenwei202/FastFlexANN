@@ -66,7 +66,7 @@ files loaded...
 Information is logged in file mnist.log
  
 # 4. File format
-## ```[net file] – text file```
+## ```[net file] – text format```
 
 Format:
 
@@ -84,7 +84,7 @@ Example:
 0 787													
 ...													
 
-## ```[train file/test file] - text file```
+## ```[train file/test file] - text format```
 
 Format:
 
@@ -100,7 +100,7 @@ Example:
 … 													
 
 
-## ```[weight file] – binary file```
+## ```[weight file] – binary format```
 
 Filename Format:
 
