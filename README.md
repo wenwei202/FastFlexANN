@@ -20,7 +20,7 @@ FastFlexANN is a C implementation of sparse artificial neural networks (Multi-La
 * ./docs - documents
 
 # 3. How to run
-3.1 Build
+## 3.1 Build
  cd $FastFlexANNFolder/src		
  make clean #always run this		
  make				
