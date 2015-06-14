@@ -44,8 +44,10 @@ All parameters are required
 * Run MNIST_gen.m to load samples from binary MNIST files
 * Run MNIST_txt_gen.m to generate train file and test file named as “MNIST_train.txt” and “MNIST_test.txt” (pixels are normalized between -1 and 1)
 * Run full_connection_gen.m to generate net file for fully connected MLP 
+
 ex.
  >> full_connection_gen([784 300 100 10]));
+ 
 full_nn_784_300_100_10.txt will be generated, which is a MLP with 4 layers composed of 784 input neurons, 300+100 hidden neurons and 10 output neurons (Excluding these neurons, a bias neuron is also implicitly added at the end of every except output layers, and it is connected towards all neurons in the next layer, so as to implement all biases for neurons in the next layer.)
 
 ## 3.4 An running example
@@ -102,10 +104,12 @@ Example:
 Filename Format:
 
 database_weights_[neuron#]_connection#_userdata_learningRate_pruningRate_[reserved#]
+
 Ex. 
 mnist_weights_[785_301_101_11]_266610_0_0.000100_0.000000_0 
 
 Corresponding pruned net file may be saved as “pruned_$weightfilename.txt”
+
 Ex.
 pruned_mnist_weights_[785_301_101_11]_946_0_0.000100_0.050000_0.txt
 
