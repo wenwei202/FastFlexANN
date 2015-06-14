@@ -113,4 +113,3 @@ Logging info
 * Referred to paper “Dan Claudiu Ciresan. etc. Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition” 
 * 1/6 samples are utilized as validating samples
 * Comments are given in codes
-
