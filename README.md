@@ -109,7 +109,7 @@ fflex_msg_t(double) array: weight values
 [*.log]
 Logging info
 
-5. Implementation details
+# 5. Implementation details
 * Referred to paper “Dan Claudiu Ciresan. etc. Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition” 
 * 1/6 samples are utilized as validating samples
 * Comments are given in codes
