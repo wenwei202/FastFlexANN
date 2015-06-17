@@ -6,7 +6,7 @@ More details are in ./docs folder.
 
 
 # 1. What’s FastFlexANN
-FastFlexANN is a C implementation of sparse artificial neural networks (Multi-Layer Perceptron, MLP). Its advantages are:
+FastFlexANN is a C or C++ language implementation of sparse artificial neural networks (Multi-Layer Perceptron, MLP). Its advantages are:
 * Compact and easy to be understood;
 * Written by stand C to be portable to all C-compatible platforms;
 * The connective topology (for both fully and sparsely connected MLP) between layers can be flexibly specified by net file;
